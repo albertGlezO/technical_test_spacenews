@@ -1,0 +1,30 @@
+# Python
+*.pyc
+__pycache__/
+*~
+*.log
+*.pot
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Databases
+db.sqlite3
+*.sqlite3
+
+# Media and Static Files (if generated locally or on deployment)
+media/
+static/
+
+# IDE-specific files (Example for VS Code and PyCharm)
+.vscode/
+.idea/
+
+# Sensitive Data / Local Settings
+local_settings.py
