@@ -71,7 +71,7 @@ python manage.py migrate
 
 ## 👤 Usuarios
 
-### Usuario para pruebas
+#### Usuario para pruebas
 ```bash
 - username: admin
 - email: admin@example.com
