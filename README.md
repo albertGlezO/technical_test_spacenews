@@ -62,11 +62,6 @@ pip install -r requirements.txt
 
 ## 🗄️ Migraciones de Base de Datos
 
-#### Crear nuevas migraciones (si aplica)
-```bash
-python manage.py makemigrations
-```
-
 #### Aplicar migraciones
 ```bash
 python manage.py migrate
@@ -74,9 +69,16 @@ python manage.py migrate
 
 ---
 
-## 👤 Creación del Primer Usuario (Superusuario)
+## 👤 Usuarios
 
-#### Crear un superusuario administrador
+### Usuario para pruebas
+```bash
+- username: admin
+- email: admin@example.com
+- password: admin123!:
+```
+
+#### Crear usuarios adicionales
 ```bash
 python manage.py createsuperuser
 ```
