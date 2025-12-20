@@ -32,7 +32,7 @@ class FavoriteAPITest(APITestCase):
         self.client.force_authenticate(user=self.user)
 
     def test_add_favorite(self):
-        url = f"/api/articles/{self.article.id}/favorites/"
+        url = f"/api/articles/{self.article.id}/favorite/"
 
         response = self.client.post(url)
 
