@@ -127,7 +127,7 @@ python manage.py runserver
 
 ## 📰 Ejecución de Sincronización de Noticias
 ```bash
-python manage.py sync_news --limit 5
+python manage.py sync_news --limit 500
 ```
 
 #### Reglas aplicadas
